@@ -1,0 +1,65 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.generated-script {
+  font-size: 8px;  /* Ajusta el tamaño de fuente según tus necesidades */
+  font-family: 'Courier New', monospace;  /* Puedes ajustar la familia de fuente si lo deseas */
+  /* Otros estilos opcionales, como color, margen, etc. */
+}
+
+.label-50px {
+  width: 50px;
+}
+
+body {
+  background-color: #1c1c1c;
+  color: #e0d5ad;
+  font-family: 'Old English Text MT', sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3em;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #e0d5ad;
+  padding-bottom: 10px;
+}
